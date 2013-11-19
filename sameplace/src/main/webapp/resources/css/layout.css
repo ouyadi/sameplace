@@ -1,0 +1,29 @@
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+#map-canvas { height: 100%; width:100%; position:relative; /*right:-35%; top:-100%;*/}
+
+/*#input-panel {height:85%; width:35%; position:relative; background:#edf6ff;}*/
+
+.center 
+{
+	position:relative;
+	margin-left:20%;
+	margin-right:20%;
+	top:50%;
+	width:60%;
+	/*background-color:#b0e0e6;*/
+}
+
+.button_div
+{
+	padding-top:5%;
+	display:none;
+}
+
+.address_search_div
+{
+	top:20px;
+	margin-left:20%;
+	margin-right:20%;
+	display:none;
+}
