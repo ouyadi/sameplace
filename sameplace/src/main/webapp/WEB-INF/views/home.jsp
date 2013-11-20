@@ -3,10 +3,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="s" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="t" uri="http://tiles.apache.org/tags-tiles" %>
+<%@ taglib prefix="sf" uri="http://www.springframework.org/tags/form" %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<link rel="stylesheet" href="resources/development-bundle/themes/base/jquery.ui.all.css">
+	<link rel="stylesheet" href="resources/development-bundle/themes/base/jquery.ui.all.css"/>
 	<script type="text/javascript" src="resources/js/jquery-1.9.1.js"></script>
 	<script src="resources/development-bundle/ui/jquery.ui.core.js"></script>
 	<script src="resources/development-bundle/ui/jquery.ui.widget.js"></script>
@@ -67,8 +69,8 @@
 <body>
 	<table width="100%" height="100%">
 		<tr>
-			<td width="35%"><t:insertAttribute name="menu"/></td>
-			<td width="65%"><t:insertAttribute name="map"/></td>
+			<td width="35%" height="100%"><t:insertAttribute name="menu"/></td>
+			<td width="65%" height="100%"><t:insertAttribute name="map"/></td>
 		</tr>
 	</table>
 </body>

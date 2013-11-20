@@ -1,6 +1,5 @@
 <%@ taglib prefix="sf" uri="http://www.springframework.org/tags/form" %>
 
-
 <sf:form method="get" id="home">
 <table width="100%">
 	<tr>
@@ -17,7 +16,12 @@
 <script type="text/javascript">
 $("#sign_up").click(function(){
 	var url=$("#home").attr("action");
-	$("#home").attr("action",url+"/signup");
+	$("#home").attr("action",url+"signup");
+	$("#home").trigger("submit");
+});
+$("#sign_in").click(function(){
+	var url=$("#home").attr("action");
+	$("#home").attr("action",url+"signin");
 	$("#home").trigger("submit");
 });
 </script>
